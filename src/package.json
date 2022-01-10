@@ -1,0 +1,55 @@
+{
+  "name": "intermodal-planner",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "mapbox-gl": "^1.4.1",
+    "mapbox-gl-geocoder": "^2.0.1",
+    "navitia": "^1.0.0",
+    "react": "^16.11.0",
+    "react-autosuggest": "^9.4.3",
+    "react-dom": "^16.11.0",
+    "react-map-gl": "^5.0.12",
+    "react-map-gl-geocoder": "^2.0.11",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-airbnb": "^5.0.0",
+    "babel-preset-es2017": "^6.24.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "identity-obj-proxy": "^3.0.0",
+    "mapbox-gl-js-mock": "^1.0.2"
+  }
+
+}
